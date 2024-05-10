@@ -1,0 +1,72 @@
+<div class="container py-5">
+  <h2>STUDENTS PAGE</h2>
+  <div class="d-flex py-3 border border-secondary box rounded">
+    <div class="container">
+      <div class="row py-1 mx-1">
+        <div class="col-md-9">
+          <input
+            type="text"
+            (keyup)="filterStudents()"
+            class="form-control"
+            [(ngModel)]="searchTerm"
+            placeholder="Enter Student Name"
+          />
+        </div>
+        <div class="col">
+          <p-button
+            (click)="show()"
+            icon="pi pi-plus"
+            label="Add Student"
+          ></p-button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="container">
+    <div class="card">
+      <p-confirmDialog></p-confirmDialog>
+      <p-table [value]="students" [tableStyle]="{ 'min-width': '60rem' }">
+        <ng-template pTemplate="header">
+          <tr>
+            <th pSortableColumn="id" style="width: 20%">
+              ID <p-sortIcon field="id"></p-sortIcon>
+            </th>
+            <th pSortableColumn="name" style="width: 20%">
+              Name <p-sortIcon field="name"></p-sortIcon>
+            </th>
+            <th pSortableColumn="year" style="width: 20%">
+              Academic Year <p-sortIcon field="year"></p-sortIcon>
+            </th>
+            <th pSortableColumn="grade" style="width: 20%">
+              Grade <p-sortIcon field="grade"></p-sortIcon>
+            </th>
+            <th style="width: 20%">Actions</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-student>
+          <tr>
+            <td>{{ student.id }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.year }}</td>
+            <td>{{ student.grade }}</td>
+            <td>
+              <a><i class="pi pi-eye"></i></a>
+              <a
+                ><i class="pi pi-pencil" (click)="edit(this.student.id)"></i
+              ></a>
+              <p-toast></p-toast>
+              <a
+                styleClass="p-button-danger"
+                (click)="confirm2($event, this.student.id)"
+                icon="pi pi-times"
+              >
+                <i class="pi pi-trash" icon="pi pi-trash"></i>
+              </a>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </div>
+  </div>
+</div>

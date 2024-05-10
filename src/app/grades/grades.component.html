@@ -1,0 +1,80 @@
+<div class="container py-5">
+  <h2>Grading Page</h2>
+  <div class="container">
+    <p-dropdown
+      [options]="subjects"
+      [(ngModel)]="selectedSub"
+      optionLabel="subject"
+      placeholder="Select a Subject"
+      (onChange)="selectSub()"
+    />
+    <br />
+    <br />
+    <div class="card">
+      <p-confirmDialog></p-confirmDialog>
+      <p-table [value]="grades" [tableStyle]="{ 'min-width': '60rem' }">
+        <ng-template pTemplate="header">
+          <tr>
+            <th pSortableColumn="id" style="width: 7%">
+              ID <p-sortIcon field="id"></p-sortIcon>
+            </th>
+            <th pSortableColumn="name" style="width: 22%">
+              Name <p-sortIcon field="name"></p-sortIcon>
+            </th>
+            <th pSortableColumn="year" style="width: 15%">
+              Academic Year <p-sortIcon field="year"></p-sortIcon>
+            </th>
+            <th pSortableColumn="term1" style="width: 10%">
+              Term-1 <p-sortIcon field="term1"></p-sortIcon>
+            </th>
+            <th pSortableColumn="term2" style="width: 10%">
+              Term-2 <p-sortIcon field="term2"></p-sortIcon>
+            </th>
+            <th pSortableColumn="total" style="width: 10%">
+              Total <p-sortIcon field="total"></p-sortIcon>
+            </th>
+            <th pSortableColumn="grade" style="width: 10%">
+              Grade <p-sortIcon field="grade"></p-sortIcon>
+            </th>
+            <th style="width: 30%">Actions</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-grade>
+          <tr>
+            <td>{{ grade.id }}</td>
+            <td>{{ grade.name }}</td>
+            <td>{{ grade.year }}</td>
+            <td>{{ grade.term1 }}</td>
+            <td>{{ grade.term2 }}</td>
+            <td>{{ grade.total }}</td>
+            <td>{{ grade.grade }}</td>
+            <td>
+              <button
+                (click)="
+                  edit(
+                    this.grade.id,
+                    this.grade.subject,
+                    this.grade.term1,
+                    this.grade.term2
+                  )
+                "
+                class="btn btn-primary"
+              >
+                Edit
+              </button>
+              <p-toast></p-toast>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </div>
+    <br />
+    <div class="alert alert-primary" role="alert">
+      <strong>Number of Succeeded Students :</strong>
+      <span class="green">{{ getsucces(true) }}</span>
+      <br />
+      <strong>Number of Failed Students :</strong
+      ><span class="red">{{ getsucces(false) }}</span>
+    </div>
+  </div>
+</div>

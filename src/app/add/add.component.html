@@ -1,0 +1,25 @@
+<form [formGroup]="frmGroup">
+  <div class="d-flex flex-column gap-2 my-4">
+    <label for="myname">Student Name</label>
+    <input pInputText id="myname" formControlName="myname" />
+  </div>
+  <div class="d-flex flex-column gap-2 my-4">
+    <label for="id">National ID</label>
+    <input pInputText id="id" formControlName="nId" />
+  </div>
+  <div class="d-flex flex-column gap-2 my-4">
+    <label for="username">Academic Year</label>
+    <p-dropdown
+      name="years"
+      [options]="Years"
+      optionLabel="year"
+      placeholder="Year"
+      [(ngModel)]="selectedyear"
+      formControlName="drop"
+    >
+    </p-dropdown>
+  </div>
+  <div class="d-flex flex-column gap-2 my-4">
+    <p-button (click)="add()" label="Add Student" />
+  </div>
+</form>

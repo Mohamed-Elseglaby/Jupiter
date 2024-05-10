@@ -1,0 +1,34 @@
+<form [formGroup]="frmGroup">
+  <div class="d-flex flex-column gap-2 my-4">
+    <label for="id">id</label>
+    <input pInputText id="id" formControlName="myid" />
+  </div>
+  <div class="d-flex flex-column gap-2 my-4">
+    <label for="name">Student Name</label>
+    <input pInputText id="name" formControlName="myname" />
+  </div>
+  <div class="d-flex flex-column gap-2 my-4">
+    <label for="username">Academic Year</label>
+    <p-dropdown
+      name="years"
+      [options]="years2"
+      placeholder="Year"
+      formControlName="drop"
+    >
+    </p-dropdown>
+  </div>
+  <div class="d-flex flex-column gap-2 my-4">
+    <label for="mygrade">Edit Student Data</label>
+    <input pInputText id="mygrade" formControlName="mygrade" />
+  </div>
+  <div class="d-flex flex-column gap-2 my-4">
+    <button
+      (click)="edit()"
+      label="Edit"
+      class="btn btn-primary"
+      [disabled]="frmGroup.invalid"
+    >
+      Edit
+    </button>
+  </div>
+</form>
