@@ -5794,11 +5794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.Api\\Students.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.Api\\Students.Api.csproj",
       "projectName": "Students.Api",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.Api\\Students.Api.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.Api\\Students.Api.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.Api\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5815,8 +5815,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.BL\\Students.BL.csproj": {
-              "projectPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.BL\\Students.BL.csproj"
+            "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.BL\\Students.BL.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.BL\\Students.BL.csproj"
             }
           }
         }

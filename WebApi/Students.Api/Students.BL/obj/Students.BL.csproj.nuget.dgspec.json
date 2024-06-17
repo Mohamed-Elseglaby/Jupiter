@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.BL\\Students.BL.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.BL\\Students.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.BL\\Students.BL.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.BL\\Students.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.BL\\Students.BL.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.BL\\Students.BL.csproj",
         "projectName": "Students.BL",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.BL\\Students.BL.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.BL\\Students.BL.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.BL\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.DAL\\Students.DAL.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.DAL\\Students.DAL.csproj"
+              "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.DAL\\Students.DAL.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.DAL\\Students.DAL.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.DAL\\Students.DAL.csproj": {
+    "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.DAL\\Students.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.DAL\\Students.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.DAL\\Students.DAL.csproj",
         "projectName": "Students.DAL",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.DAL\\Students.DAL.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.DAL\\Students.DAL.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

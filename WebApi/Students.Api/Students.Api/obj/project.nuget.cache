@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQ1rXZ+f2qoY917mBgB6zkNEpp5E74M/fpNfN5iGZFSndW0rgxBih/8QJ9JVDmDj8J9AyEzGq3j4+dqQNZtLaQ==",
+  "dgSpecHash": "gcvYT3fGrXXrULHyTO1c1/c23JX4kBndT3yrwYZXd7oxRxoQjYumtMSDOD4kEC7Oiumki41Ou3mZbGU+ACG6xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\source\\repos\\Students.Api\\Students.Api\\Students.Api.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\Angular\\final\\WebApi\\Students.Api\\Students.Api\\Students.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
