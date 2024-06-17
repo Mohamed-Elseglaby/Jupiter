@@ -1,0 +1,15 @@
+C:\Users\Asus\source\repos\Students.Api\Students.BL\bin\Debug\net8.0\Students.BL.deps.json
+C:\Users\Asus\source\repos\Students.Api\Students.BL\bin\Debug\net8.0\Students.BL.dll
+C:\Users\Asus\source\repos\Students.Api\Students.BL\bin\Debug\net8.0\Students.BL.pdb
+C:\Users\Asus\source\repos\Students.Api\Students.BL\bin\Debug\net8.0\Students.DAL.dll
+C:\Users\Asus\source\repos\Students.Api\Students.BL\bin\Debug\net8.0\Students.DAL.pdb
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.BL.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.BL.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.BL.AssemblyInfo.cs
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.BL.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.2829C232.Up2Date
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.BL.dll
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\refint\Students.BL.dll
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\Students.BL.pdb
+C:\Users\Asus\source\repos\Students.Api\Students.BL\obj\Debug\net8.0\ref\Students.BL.dll
