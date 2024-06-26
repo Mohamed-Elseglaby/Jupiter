@@ -6,12 +6,9 @@ import { Student } from '../_models/student';
 })
 export class StudentsService {
   students: Student[] = [
-    new Student(1, 'Ali', '1st', 'A'),
-    new Student(2, 'Mohamed', '2nd', 'F'),
-    new Student(3, 'Yasser', '3rd', 'A'),
-    new Student(4, 'Nour', '8th', 'C'),
-    new Student(5, 'Magdy', '6th', 'D'),
-    new Student(6, 'Islam', '6th', 'A'),
+    new Student(1, 'Mohamed', '5th', 'A'),
+    new Student(2, 'Ali', '6th', 'A'),
+    new Student(3, 'Magdy', '7th', 'A'),
   ];
   getAll() {
     return this.students;

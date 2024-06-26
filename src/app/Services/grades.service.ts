@@ -17,8 +17,8 @@ export class GradesService implements OnInit {
           this.students[i].name,
           this.students[i].year,
           'Math',
-          10,
-          10,
+          15,
+          14,
           this.students[i].grade
         )
       );
@@ -28,8 +28,8 @@ export class GradesService implements OnInit {
           this.students[i].name,
           this.students[i].year,
           'Arabic',
-          5,
-          5,
+          13,
+          13,
           this.students[i].grade
         )
       );
@@ -39,8 +39,8 @@ export class GradesService implements OnInit {
           this.students[i].name,
           this.students[i].year,
           'History',
-          7,
-          7,
+          12,
+          12,
           this.students[i].grade
         )
       );

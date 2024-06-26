@@ -1,4 +1,4 @@
-﻿using Students.DAL;
+using Students.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,12 +18,11 @@ namespace Students.DAL.Repo
         {
             _context.Students.Add(student);
             _context.SaveChanges();
-            if(student.ID == "" || student==null) 
+            if(student.ID == "" || student==null)
             {
                 return "No Id";
             }
-           
-            return student.ID;
+            return student.ID!;
         }
 
         public void Delete(string id)
